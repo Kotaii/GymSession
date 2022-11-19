@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Batch</title>
+<style>
+.center{
+margin:auto;
+width:50%;
+border: 2px;
+padding: 10px;
+
+}
+</style>
+</head>
+<body>
+<div class="center">
+<h3>Add new Batch</h3>
+<form action="BatchServlet" method="post">
+<label for="name">Class Name:</label><br>
+<input type="text" id="name" name="name" placeholder="Zumba or Yoga"><br>
+<label for="timeSession">Class Session:</label><br>
+<input type="text" id="timeSession" name="name" placeholder="morning or Afternoon"><br>
+<label for="bid">Batch ID:</label><br>
+<input type="text" id="bid" name="name" placeholder="1"><br>
+<input type="submit" value="Submit">
+</form>
+</div>
+</html>

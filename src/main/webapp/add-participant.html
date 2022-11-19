@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Participant</title>
+<style>
+.center{
+margin:auto;
+width:50%;
+border: 2px;
+padding: 10px;
+
+}
+</style>
+</head>
+<body>
+<div class="center">
+<h3>Add new Participant</h3>
+<form action="ParticipantServlet" method="post">
+<label for="name">Full Name:</label><br>
+<input type="text" name="txtName" placeholder="Peter Wick"><br>
+<label for="phone">Phone:</label><br>
+<input type="text" name="txtPhone" placeholder="+91 99999 11100"><br>
+<label for="email">Email:</label><br>
+<input type="text" name="txtEmail" placeholder="Peter@example.com"><br>
+<label for="bid">Batch ID:</label><br>
+<input type="text" name="txtBid" placeholder="1"><br>
+<input type="submit" value="Submit">
+</form>
+</div>
+</html>
